@@ -6,13 +6,17 @@
   --background-color: #f9f7fe;
 }
 
-body {
-  text-align: center;
-  margin: 276px 375px;
+div {
+  display: block;
 }
 
-h5,
-h1 {
+.homepage-hero {
+  text-align: center;
+  background: var(--background-color);
+  padding: 160px 20px;
+}
+
+h5 {
   font-family: var(--main-font-family);
   font-weight: bold;
   color: var(--secondary-color);
@@ -24,6 +28,8 @@ h5 {
 
 h1 {
   font-size: 98px;
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
 }
 
 p {
