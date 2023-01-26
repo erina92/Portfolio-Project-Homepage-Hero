@@ -58,11 +58,6 @@ h2 {
   font-weight: bold;
 }
 
-.first-project p {
-  font-size: 16px;
-  line-height: 40px;
-}
-
 .btn-learn-project-1 {
   border-radius: 4px;
   border: 1px solid var(--primary-color);
@@ -72,4 +67,10 @@ h2 {
   font-size: 18px;
   cursor: pointer;
   transition: all 200ms ease-in-out;
+}
+
+.first {
+  font-family: var(--main-font-family);
+  line-height: 30px;
+  text-align: var(--text-align-justify);
 }
