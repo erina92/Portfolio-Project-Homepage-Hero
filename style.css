@@ -84,6 +84,21 @@ h2 {
   font-weight: bold;
 }
 
+.project-info p {
+  text-align: justify;
+  line-height: 35px;
+}
+
+.dictionary-link,
+.weather-link,
+.yogurt-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
@@ -106,8 +121,13 @@ h2 {
     line-height: 30px;
   }
 
-  .project-info {
+  .project-info p {
+    text-align: justify;
+    line-height: 35px;
+    margin: 0 auto;
+  }
+
+  .links {
     text-align: center;
-    padding: 0;
   }
 }
