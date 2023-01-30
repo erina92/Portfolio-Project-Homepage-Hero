@@ -168,6 +168,10 @@ h3 {
   font-size: 40px;
 }
 
+.navbar {
+  font-family: var(--secondary-font-family);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
