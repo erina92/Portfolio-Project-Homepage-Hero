@@ -99,6 +99,75 @@ h2 {
   text-decoration: none;
 }
 
+.about-me {
+  background: #f9f7fe;
+  border-radius: 100px;
+  padding: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.about-me h1 {
+  font-family: var(--secondary-font-family);
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  font-family: var(--secondary-font-family);
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+  line-height: 30px;
+  font-family: var(--secondary-font-family);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  font-family: var(--secondary-font-family);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+  margin-top: 80px;
+  font-family: var(--secondary-font-family);
+}
+
+#contact {
+  background: #f9f7fe;
+  border-radius: 100px;
+  padding: 18px;
+  font-family: var(--secondary-font-family);
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  font-family: var(--secondary-font-family);
+}
+
+.email-link:hover {
+  text-decoration: none;
+}
+
+.social-links {
+  text-align: center;
+  font-size: 40px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 70px;
@@ -129,5 +198,28 @@ h2 {
 
   .links {
     text-align: center;
+  }
+
+  .about-me {
+    background: #f9f7fe;
+    border-radius: 100px;
+    padding: 18px;
+    margin: 18px;
+  }
+
+  .about-me h3 {
+    margin: 20px;
+  }
+  .about-paragraphs p {
+    margin: 10px;
+    line-height: 35px;
+    text-align: justify;
+  }
+
+  #contact {
+    background: #f9f7fe;
+    border-radius: 100px;
+    margin: 18px;
+    padding: 18px;
   }
 }
