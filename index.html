@@ -1,139 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <title>Homepage Hero 🦸‍♀️</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-     <script
-      src="https://kit.fontawesome.com/03389854d1.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Erika Miglietta 👩‍💻</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home 🏠</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Me 👩</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects  🧠 </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Me 📬</a>
-            </li>
-        </div>
-      </div>
-    </nav>
-    <div class="homepage-hero">
-      <h5>👋 Hello, I am</h5>
-      <h1>Erika Miglietta</h1>
-      <p>Aspiring front-end developer, based in Italy 🇮🇹</p>
-      <div class="navigation-links">
-        <a href="contact.html" class="btn btn-contact m-4">Contact me</a>
-        <a href="about.html" class="btn btn-about m-4">About me</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <title>Homepage Hero 🦸‍♀️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/03389854d1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Erika Miglietta 👩‍💻</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home 🏠</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me 👩</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects 🧠 </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me 📬</a>
+          </li>
       </div>
     </div>
-    <p class="text-center m-5 featured-projects">
-      Featured Projects which show my best projects of choice 🙇‍♀️
-    </p>
-    <div class="homepage container mt-3">
-        <div class="row gy-4 mt-5">
-          <div class="col-md-6">
-            <img src="images/dictionary.png" alt="" class="img-fluid rounded" title="dictionary project"/>
-          </div>
-          <div class="col-md-6">
-            <div class="project-info">
-              <h2 class="text-start">Dictionary app</h2>
-              <p class="mt-2">
-                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by
-              </p>
-              <div class="my-5 links">
-                <a href="#" class="dictionary-link rounded" title="Dictionary App">Launch Dictionary app 📑</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row gy-4 mt-5">
-          <div class="col-md-6">
-            <div class="project-info">
-              <h2 class="text-start">Weather app</h2>
-              <p class="mt-2">
-                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by
-              </p>
-              <div class="my-5 links">
-                <a href="#" class="weather-link rounded" title="Weather App">Launch Weather app 🌡️</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="images/weather.png" alt="" class="img-fluid rounded" title="Weather Project" />
-          </div>
-        </div>
-        <div class="row gy-4 mt-5 mb-5">
-          <div class="col-md-6">
-            <img src="images/yogurt.png" alt="" class="img-fluid rounded" title="Yogurt Project"/>
-          </div>
-          <div class="col-md-6">
-            <div class="project-info">
-              <h2 class="text-start">Yogurt app</h2>
-              <p class="mt-2">
-                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by
-              </p>
-              <div class="my-5 links">
-                <a href="#" class="yogurt-link rounded" title="Yogurt App">Launch Yogurt app 🍶</a>
-              </div>
-            </div>
+  </nav>
+  <div class="homepage-hero">
+    <h5>👋 Hello, I am</h5>
+    <h1>Erika Miglietta</h1>
+    <p>Aspiring front-end developer, based in Italy 🇮🇹</p>
+    <div class="navigation-links">
+      <a href="contact.html" class="btn btn-contact m-4">Contact me</a>
+      <a href="about.html" class="btn btn-about m-4">About me</a>
+    </div>
+  </div>
+  <p class="text-center m-5 featured-projects">
+    Featured Projects which show my best projects of choice 🙇‍♀️
+  </p>
+  <div class="homepage container mt-3">
+    <div class="row gy-4 mt-5">
+      <div class="col-md-6">
+        <img src="images/dictionary.png" alt="" class="img-fluid rounded" title="dictionary project" />
+      </div>
+      <div class="col-md-6">
+        <div class="project-info">
+          <h2 class="text-start">Dictionary app</h2>
+          <p class="mt-2">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean. A small river named Duden flows by
+          </p>
+          <div class="my-5 links">
+            <a href="#" class="dictionary-link rounded" title="Dictionary App">Launch Dictionary app 📑</a>
           </div>
         </div>
       </div>
     </div>
-  </body>
+    <div class="row gy-4 mt-5">
+      <div class="col-md-6">
+        <div class="project-info">
+          <h2 class="text-start">Weather app</h2>
+          <p class="mt-2">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean. A small river named Duden flows by
+          </p>
+          <div class="my-5 links">
+            <a href="#" class="weather-link rounded" title="Weather App">Launch Weather app 🌡️</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="images/weather.png" alt="" class="img-fluid rounded" title="Weather Project" />
+      </div>
+    </div>
+    <div class="row gy-4 mt-5 mb-5">
+      <div class="col-md-6">
+        <img src="images/yogurt.png" alt="" class="img-fluid rounded" title="Yogurt Project" />
+      </div>
+      <div class="col-md-6">
+        <div class="project-info">
+          <h2 class="text-start">Yogurt app</h2>
+          <p class="mt-2">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean. A small river named Duden flows by
+          </p>
+          <div class="my-5 links">
+            <a href="#" class="yogurt-link rounded" title="Yogurt App">Launch Yogurt app 🍶</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>
