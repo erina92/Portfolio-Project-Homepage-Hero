@@ -102,7 +102,6 @@ h2 {
 
 .about-me container {
   background: #f9f7fe;
-  border-radius: 100px;
   padding: 18px;
   font-family: var(--secondary-font-family);
 }
@@ -112,6 +111,12 @@ h2 {
 }
 
 .homepage container {
+  max-width: 1250px;
+  margin: 0 auto;
+  font-family: var(--secondary-font-family);
+}
+
+.project-page container {
   max-width: 1250px;
   margin: 0 auto;
   font-family: var(--secondary-font-family);
