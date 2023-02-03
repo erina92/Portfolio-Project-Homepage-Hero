@@ -91,7 +91,8 @@ h2 {
 
 .dictionary-link,
 .weather-link,
-.yogurt-link {
+.yogurt-link,
+.project-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -99,7 +100,7 @@ h2 {
   text-decoration: none;
 }
 
-.about-me {
+.about-me container {
   background: #f9f7fe;
   border-radius: 100px;
   padding: 18px;
@@ -110,7 +111,7 @@ h2 {
   font-family: var(--secondary-font-family);
 }
 
-.container {
+.homepage container {
   max-width: 1250px;
   margin: 0 auto;
   font-family: var(--secondary-font-family);
@@ -123,9 +124,21 @@ h2 {
 
 .about-paragraphs p {
   margin: 10px;
-  line-height: 30px;
+  line-height: 35px;
   font-family: var(--secondary-font-family);
   text-align: justify;
+}
+
+.about-me img {
+  border-radius: 20%;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px;
+  text-decoration: none;
 }
 
 h1,
@@ -145,8 +158,6 @@ h3 {
 }
 
 #contact {
-  background: #f9f7fe;
-  border-radius: 100px;
   padding: 18px;
   font-family: var(--secondary-font-family);
 }
@@ -214,7 +225,7 @@ h3 {
     text-align: center;
   }
 
-  .about-me {
+  .about-me container {
     background: #f9f7fe;
     border-radius: 100px;
     padding: 18px;
@@ -232,8 +243,6 @@ h3 {
   }
 
   #contact {
-    background: #f9f7fe;
-    border-radius: 100px;
     margin: 14px;
     padding: 14px;
   }
