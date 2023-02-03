@@ -18,6 +18,12 @@ div {
   padding: 160px 20px;
 }
 
+.homepage-hero p {
+  text-align: center;
+  font-family: var(--secondary-font-family);
+  font-size: 24px;
+}
+
 h5 {
   font-family: var(--main-font-family);
   font-weight: bold;
@@ -32,11 +38,6 @@ h1 {
   font-size: 98px;
   font-family: var(--secondary-font-family);
   font-weight: bold;
-}
-
-.homepage-hero p {
-  font-family: var(--secondary-font-family);
-  font-size: 24px;
 }
 
 .btn-contact {
@@ -67,6 +68,7 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  box-shadow: var(--box-shadow);
 }
 
 .btn-about:hover {
@@ -98,6 +100,7 @@ h2 {
   color: white;
   padding: 20px;
   text-decoration: none;
+  box-shadow: var(--box-shadow);
 }
 
 .about-me container {
