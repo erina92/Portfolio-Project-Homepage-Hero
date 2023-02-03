@@ -354,7 +354,9 @@ h3 {
   }
 
   .btn-contact {
-    margin-top: 20px;
+    margin-top: 0;
+    padding: 15px 25px;
+    font-size: 12px;
   }
 
   .contact-box h4 {
