@@ -125,6 +125,7 @@ h2 {
   margin: 10px;
   line-height: 30px;
   font-family: var(--secondary-font-family);
+  text-align: justify;
 }
 
 h1,
@@ -161,6 +162,7 @@ h3 {
 
 .email-link:hover {
   text-decoration: none;
+  color: var(--secondary-color);
 }
 
 .social-links {
@@ -168,6 +170,13 @@ h3 {
   font-size: 40px;
 }
 
+.social-links a {
+  color: var(--primary-color);
+}
+
+.social-links a:hover {
+  color: var(--secondary-color);
+}
 .navbar {
   font-family: var(--secondary-font-family);
 }
@@ -183,6 +192,7 @@ h3 {
 
   .homepage-hero p {
     font-size: 22px;
+    margin: 20px auto;
   }
   h2 {
     font-size: 50px;
@@ -215,15 +225,24 @@ h3 {
     margin: 20px;
   }
   .about-paragraphs p {
-    margin: 10px;
+    margin: 0;
     line-height: 35px;
     text-align: justify;
+    padding: 0;
   }
 
   #contact {
     background: #f9f7fe;
     border-radius: 100px;
-    margin: 18px;
-    padding: 18px;
+    margin: 14px;
+    padding: 14px;
+  }
+
+  .email-link {
+    font-size: 22px;
+  }
+
+  .social-links a {
+    font-size: 30px;
   }
 }
