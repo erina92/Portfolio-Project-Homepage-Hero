@@ -211,7 +211,7 @@ h3 {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: black;
   font-size: 28px;
   text-decoration: none;
   font-family: var(--secondary-font-family);
@@ -236,6 +236,36 @@ h3 {
 }
 .navbar {
   font-family: var(--secondary-font-family);
+}
+
+.footer {
+  margin: 60px 0;
+}
+
+.contact-box {
+  background: #F9F7FE;
+  padding: 30px 120px;
+  border-radius: 20px;
+}
+
+.contact-box h4 {
+  font-family: var(--secondary-font-family);
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.social-links a {
+  margin: 0 20px;
+  background: #f9f7fe;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 200ms ease-in-out;
+}
+
+.social-links a:hover {
+  background: var(--primary-color);
+  color:#F9F7FE;
 }
 
 @media (max-width: 960px) {
