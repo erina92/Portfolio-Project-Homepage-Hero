@@ -122,6 +122,26 @@ h2 {
   font-family: var(--secondary-font-family);
 }
 
+.contact-page container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.content h3,
+p {
+  font-family: var(--main-font-family);
+  text-align: start;
+}
+
+.content h3 {
+  font-weight: bolder;
+}
+
+.content h1 {
+  font-family: var(--secondary-font-family);
+  text-align: start;
+}
+
 .projects-page h3,
 p {
   font-family: var(--main-font-family);
