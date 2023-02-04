@@ -131,6 +131,12 @@ h2 {
   object-fit: cover;
 }
 
+.homepage img {
+  width: 700px;
+  height: 700px;
+  object-fit: cover;
+}
+
 .contact-page container {
   max-width: 1250px;
   margin: 0 auto;
