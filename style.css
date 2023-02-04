@@ -234,6 +234,7 @@ h3 {
 .social-links a:hover {
   color: var(--secondary-color);
 }
+
 .navbar {
   font-family: var(--secondary-font-family);
 }
@@ -265,7 +266,7 @@ h3 {
 
 .social-links a:hover {
   background: var(--primary-color);
-  color:#F9F7FE;
+  color: #F9F7FE;
 }
 
 .source-code p {
@@ -287,6 +288,7 @@ h3 {
     font-size: 22px;
     margin: 20px auto;
   }
+
   h2 {
     font-size: 50px;
     text-align: center;
@@ -317,6 +319,7 @@ h3 {
   .about-me h3 {
     margin: 20px;
   }
+
   .about-paragraphs p {
     margin: 0;
     line-height: 35px;
@@ -356,6 +359,10 @@ h3 {
   .btn-contact {
     margin-top: 0;
     padding: 15px 25px;
+    font-size: 12px;
+  }
+
+  .btn-about {
     font-size: 12px;
   }
 
