@@ -392,3 +392,11 @@ h3 {
     font-size: 30px;
   }
 }
+
+@media (max-width: 1024px) {
+  .homepage img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+  }
+}
