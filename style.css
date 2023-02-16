@@ -390,6 +390,15 @@ h3 {
 
 /* for iPhone XR users */
 @media only screen and (min-width: 0px) and (max-width: 479px) {
+
+  .homepage-hero {
+    padding: 100px 0 20px 0;
+  }
+
+  .homepage-hero h1 {
+    font-size: 70px;
+  }
+
   .image-overlay h3 {
     margin: 80px 0 0 0;
     font-size: 25px;
@@ -401,9 +410,14 @@ h3 {
   }
 
   .btn-contact {
-    margin: 20px 0 0 40px;
-    font-size: 12px;
     display: inline-block;
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    box-shadow: var(--box-shadow);
   }
 
   .btn-contact-2 {
@@ -502,13 +516,25 @@ h3 {
   }
 
   .btn-contact {
-    margin-top: 0;
-    padding: 15px 25px;
-    font-size: 12px;
+    display: inline-block;
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    box-shadow: var(--box-shadow);
   }
 
   .btn-about {
-    font-size: 12px;
+    display: inline-block;
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    box-shadow: var(--box-shadow);
   }
 
   .contact-box h4 {
@@ -528,12 +554,6 @@ h3 {
   .certification-page h1 {
     font-size: 70px;
     text-align: center;
-  }
-
-  .btn-contact {
-    margin: 20px 0 0 40px;
-    font-size: 12px;
-    display: inline-block;
   }
 
   .btn-contact-2 {
