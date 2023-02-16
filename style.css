@@ -143,9 +143,11 @@ h2 {
 }
 
 .about-me img {
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
+  border-radius: 10px 100px/120px;
+  margin-left: 100px;
 }
 
 .contact-page container {
@@ -196,12 +198,6 @@ p {
   line-height: 35px;
   font-family: var(--secondary-font-family);
   text-align: justify;
-}
-
-.about-me img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
 }
 
 .btn-branding {
@@ -280,6 +276,26 @@ h3 {
   font-size: 48px;
 }
 
+.btn-contact-2 {
+  display: inline-block;
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.btn-contact-2:hover {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
 .social-links a {
   margin: 0 20px;
   background: #f9f7fe;
@@ -344,6 +360,11 @@ h3 {
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.image-overlay a {
+  color: white;
 }
 
 .image-container:hover .image-overlay {
@@ -361,12 +382,45 @@ h3 {
 }
 
 .image-overlay h3 {
-  margin-top: 185px;
+  text-align: center;
   font-size: 38px;
   font-weight: bolder;
+  margin: 150px 0 0 0;
 }
 
-@media (max-width: 960px) {
+/* for iPhone XR users */
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+  .image-overlay h3 {
+    margin: 80px 0 0 0;
+    font-size: 25px;
+  }
+
+  .certification-page h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .btn-contact {
+    margin: 20px 0 0 40px;
+    font-size: 12px;
+    display: inline-block;
+  }
+
+  .btn-contact-2 {
+    display: inline-block;
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 9px;
+    box-shadow: var(--box-shadow);
+    margin-top: 20px;
+  }
+}
+
+/* for iPad users */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   h1 {
     font-size: 70px;
   }
@@ -462,12 +516,40 @@ h3 {
   }
 
   .certification-page h1 {
-    font-size: 45px;
+    font-size: 70px;
     text-align: center;
+  }
+
+  .image-overlay h3 {
+    margin: 80px 0 0 0;
+    font-size: 25px;
+  }
+
+  .certification-page h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .btn-contact {
+    margin: 20px 0 0 40px;
+    font-size: 12px;
+    display: inline-block;
+  }
+
+  .btn-contact-2 {
+    display: inline-block;
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 9px;
+    box-shadow: var(--box-shadow);
   }
 }
 
-@media (max-width: 1024px) {
+/* for Desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
   .homepage img {
     width: 700px;
     height: 500px;
@@ -482,30 +564,11 @@ h3 {
   .certification-page h1 {
     text-align: center;
     margin: auto;
-    font-size: 45px;
+    font-size: 70px;
     font-weight: bolder;
   }
 
   .gallery {
     margin: 20px auto;
-  }
-}
-
-@media (max-width: 896px) {
-  .image-overlay h3 {
-    margin: 48px 0;
-    font-size: 15px;
-  }
-
-  .certification-page h1 {
-    font-size: 45px;
-    text-align: center;
-  }
-
-  .btn-contact {
-    margin: 20px 0 0 40px;
-    padding: 10px 50px;
-    font-size: 12px;
-    display: inline-block;
   }
 }
